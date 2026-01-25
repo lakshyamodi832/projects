@@ -1,7 +1,8 @@
-package com.exp.two;
-
-public class two {
-    public static void main(String[] args) {
-        System.out.println("Name: " + args[0]);
+class Main{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Name: ");
+        String n = sc.nextLine();
+        System.out.println("Name: " + n);
     }
 }
